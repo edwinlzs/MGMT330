@@ -1,8 +1,8 @@
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, Update, User
-from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler, Updater
+from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler, Filters, MessageHandler, Updater
 from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
 import logging
-from datetime import date
+from datetime import date, datetime
 from dateutil.relativedelta import relativedelta
 
 bot = Bot(token='5254310301:AAFpjmHpHHKNa_QH94L_Ey0lBOK6e5BfpuA')
@@ -18,6 +18,11 @@ logger = logging.getLogger(__name__)
 def start(update: Update, context: CallbackContext) -> None:
   user = update.message.from_user
   context.bot.send_message(chat_id=update.effective_chat.id, text=f"Hello, {user['first_name']}!")
+
+  with open("message_logs/message_logs.txt", "a") as f:
+    timestamp  = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+    username = update.effective_user.username
+    f.write(f"{timestamp}: user [{username}] initialized with /start \n")
 
   keyboard = [
       [
@@ -40,11 +45,38 @@ def start(update: Update, context: CallbackContext) -> None:
     reply_markup=reply_markup
   )
 
+def handleCalendar(c):
+  result, key, step = DetailedTelegramCalendar().process(c.data)
+  if not result and key:
+    bot.edit_message_text(f"Select {LSTEP[step]}",
+                          c.message.chat.id,
+                          c.message.message_id,
+                          reply_markup=key)
+  elif result:
+    bot.edit_message_text(f"You selected {result}",
+                          c.message.chat.id,
+                          c.message.message_id)
+
+def maintenance_message(update: Update, context: CallbackContext):
+  with open("message_logs/message_logs.txt", "a") as f:
+    timestamp  = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+    username = update.effective_user.username
+    f.write(f"{timestamp}: [{username}] {update.message.text}\n")
+
+  context.bot.send_message(
+    chat_id=update.effective_chat.id,
+    text="This bot is not ready to respond to manual questions yet, please use /start and test the buttons first"
+  )
 
 def button(update: Update, context: CallbackContext) -> None:
   query = update.callback_query
   query.answer()
   chat_id = update.effective_chat.id
+
+  with open("message_logs/message_logs.txt", "a") as f:
+    timestamp  = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
+    username = update.effective_user.username
+    f.write(f"{timestamp}: [{username}] clicked on button: {query.data} \n")
 
   if query.data == 'confinement':
     context.bot.send_message(
@@ -69,23 +101,11 @@ def button(update: Update, context: CallbackContext) -> None:
       reply_markup=calendar
     )
   elif query.data.startswith('cbcal'):
-    calendar(query)
+    handleCalendar(query)
 
+message_handler = MessageHandler(Filters.text & (~Filters.command), maintenance_message)
 
-def calendar(c):
-  result, key, step = DetailedTelegramCalendar().process(c.data)
-  if not result and key:
-    bot.edit_message_text(f"Select {LSTEP[step]}",
-                          c.message.chat.id,
-                          c.message.message_id,
-                          reply_markup=key)
-  elif result:
-    bot.edit_message_text(f"You selected {result}",
-                          c.message.chat.id,
-                          c.message.message_id)
-
-
-
+dispatcher.add_handler(message_handler)
 dispatcher.add_handler(CommandHandler('start', start))
 dispatcher.add_handler(CallbackQueryHandler(button))
 
