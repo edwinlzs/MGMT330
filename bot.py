@@ -1,9 +1,10 @@
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, Update, User
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler, Filters, MessageHandler, Updater
-from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
 import logging
 from datetime import date, datetime
 from dateutil.relativedelta import relativedelta
+# from lib.calendar import start_calendar, handle_calendar
+from lib import calendar
 
 bot = Bot(token='5254310301:AAFpjmHpHHKNa_QH94L_Ey0lBOK6e5BfpuA')
 
@@ -45,18 +46,6 @@ def start(update: Update, context: CallbackContext) -> None:
     reply_markup=reply_markup
   )
 
-def handleCalendar(c):
-  result, key, step = DetailedTelegramCalendar().process(c.data)
-  if not result and key:
-    bot.edit_message_text(f"Select {LSTEP[step]}",
-                          c.message.chat.id,
-                          c.message.message_id,
-                          reply_markup=key)
-  elif result:
-    bot.edit_message_text(f"You selected {result}",
-                          c.message.chat.id,
-                          c.message.message_id)
-
 def maintenance_message(update: Update, context: CallbackContext):
   with open("message_logs/message_logs.txt", "a") as f:
     timestamp  = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
@@ -72,19 +61,21 @@ def button(update: Update, context: CallbackContext) -> None:
   query = update.callback_query
   query.answer()
   chat_id = update.effective_chat.id
+  bot = context.bot
 
+  # logging
   with open("message_logs/message_logs.txt", "a") as f:
     timestamp  = datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
     username = update.effective_user.username
     f.write(f"{timestamp}: [{username}] clicked on button: {query.data} \n")
 
   if query.data == 'confinement':
-    context.bot.send_message(
+    bot.send_message(
       chat_id=chat_id,
       text='Today on your confinement plan, you need to consume Herb ABC'
     )
   elif query.data == 'subscription':
-    context.bot.send_message(
+    bot.send_message(
       chat_id=chat_id,
       text='Your current subscription plan consists of the following items:\n'\
       '1. Herb ABC - this supplements your energy\n'\
@@ -94,14 +85,9 @@ def button(update: Update, context: CallbackContext) -> None:
   elif query.data == 'book':
     min_date = date.today()
     max_date = min_date + relativedelta(years=3)
-    calendar, step = DetailedTelegramCalendar(min_date=min_date, max_date=max_date).build()
-    context.bot.send_message(
-      chat_id=chat_id,
-      text=f"Select {LSTEP[step]}",
-      reply_markup=calendar
-    )
+    calendar.start_calendar(bot=bot, chat_id=chat_id, min_date=min_date, max_date=max_date)
   elif query.data.startswith('cbcal'):
-    handleCalendar(query)
+    calendar.handle_calendar(bot=bot, query=query)
 
 message_handler = MessageHandler(Filters.text & (~Filters.command), maintenance_message)
 
