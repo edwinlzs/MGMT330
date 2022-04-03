@@ -10,3 +10,112 @@
 03/23/2022, 03:13:43: [edwinlzs] clicked on button: cbcal_0_s_y_2022_3_23 
 03/23/2022, 03:13:45: [edwinlzs] clicked on button: cbcal_0_s_m_2022_2_23 
 03/23/2022, 03:13:47: [edwinlzs] clicked on button: cbcal_0_s_d_2022_2_16 
+04/03/2022, 19:10:36: [edwinlzs] hello
+04/03/2022, 19:10:36: [edwinlzs] hello
+04/03/2022, 19:10:40: user [edwinlzs] initialized with /start 
+04/03/2022, 19:14:15: user [edwinlzs] initialized with /start 
+04/03/2022, 19:16:15: user [edwinlzs] initialized with /start 
+04/03/2022, 19:16:16: [edwinlzs] clicked on button: book 
+04/03/2022, 19:16:20: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 19:16:22: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 19:16:24: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_11 
+04/03/2022, 19:16:29: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_11 
+04/03/2022, 20:06:31: user [edwinlzs] initialized with /start 
+04/03/2022, 20:06:33: [edwinlzs] clicked on button: book 
+04/03/2022, 20:06:35: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:06:37: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 20:06:39: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_12 
+04/03/2022, 20:07:02: user [edwinlzs] initialized with /start 
+04/03/2022, 20:07:04: [edwinlzs] clicked on button: book 
+04/03/2022, 20:07:06: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:07:07: [edwinlzs] clicked on button: cbcal_0_s_m_2022_2_3 
+04/03/2022, 20:07:09: [edwinlzs] clicked on button: cbcal_0_s_d_2022_2_15 
+04/03/2022, 20:09:19: user [edwinlzs] initialized with /start 
+04/03/2022, 20:09:20: [edwinlzs] clicked on button: book 
+04/03/2022, 20:09:22: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:09:24: [edwinlzs] clicked on button: cbcal_0_s_m_2022_8_3 
+04/03/2022, 20:09:26: [edwinlzs] clicked on button: cbcal_0_s_d_2022_8_10 
+04/03/2022, 20:09:51: user [edwinlzs] initialized with /start 
+04/03/2022, 20:09:53: [edwinlzs] clicked on button: book 
+04/03/2022, 20:09:55: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:09:56: [edwinlzs] clicked on button: cbcal_0_s_m_2022_8_3 
+04/03/2022, 20:09:58: [edwinlzs] clicked on button: cbcal_0_s_d_2022_8_17 
+04/03/2022, 20:11:03: user [edwinlzs] initialized with /start 
+04/03/2022, 20:11:04: [edwinlzs] clicked on button: book 
+04/03/2022, 20:11:07: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:11:36: [edwinlzs] clicked on button: cbcal_0_s_m_2022_8_3 
+04/03/2022, 20:11:39: [edwinlzs] clicked on button: cbcal_0_s_d_2022_8_10 
+04/03/2022, 20:12:14: [edwinlzs] clicked on button: 11:00 AM - 11:30 AM 
+04/03/2022, 20:12:23: [edwinlzs] clicked on button: 1:00 PM - 1:30 PM 
+04/03/2022, 20:12:46: user [edwinlzs] initialized with /start 
+04/03/2022, 20:12:48: [edwinlzs] clicked on button: book 
+04/03/2022, 20:12:50: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:12:52: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 20:12:55: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_11 
+04/03/2022, 20:12:59: [edwinlzs] clicked on button: cbcal_10:30 AM - 11:00 AM 
+04/03/2022, 20:19:26: user [edwinlzs] initialized with /start 
+04/03/2022, 20:19:28: [edwinlzs] clicked on button: book 
+04/03/2022, 20:19:30: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:19:32: [edwinlzs] clicked on button: cbcal_0_s_m_2022_8_3 
+04/03/2022, 20:19:34: [edwinlzs] clicked on button: cbcal_0_s_d_2022_8_10 
+04/03/2022, 20:19:37: [edwinlzs] clicked on button: cbcal_selected_10:30 AM - 11:00 AM 
+04/03/2022, 20:23:09: [edwinlzs] clicked on button: book 
+04/03/2022, 20:23:12: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:23:13: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 20:23:15: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_4 
+04/03/2022, 20:24:24: [edwinlzs] clicked on button: book 
+04/03/2022, 20:24:26: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:24:28: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 20:24:30: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_11 
+04/03/2022, 20:25:22: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_11 
+04/03/2022, 20:25:26: [edwinlzs] clicked on button: cbcal_selected_11/5/2022_11:00 AM - 11:30 AM 
+04/03/2022, 20:27:39: [edwinlzs] clicked on button: book 
+04/03/2022, 20:27:42: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:27:44: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 20:27:46: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_11 
+04/03/2022, 20:31:18: [edwinlzs] clicked on button: cbcal_selected_11/5/2022_12:30 PM - 1:00 PM 
+04/03/2022, 20:32:11: [edwinlzs] clicked on button: cbcal_selected_11/5/2022_11:00 AM - 11:30 AM 
+04/03/2022, 20:35:38: user [edwinlzs] initialized with /start 
+04/03/2022, 20:35:39: [edwinlzs] clicked on button: book 
+04/03/2022, 20:35:49: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:35:51: [edwinlzs] clicked on button: cbcal_0_s_m_2022_1_3 
+04/03/2022, 20:35:58: [edwinlzs] clicked on button: cbcal_0_s_d_2022_1_20 
+04/03/2022, 20:36:06: [edwinlzs] clicked on button: book 
+04/03/2022, 20:36:09: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:36:11: [edwinlzs] clicked on button: cbcal_0_s_m_2022_9_3 
+04/03/2022, 20:36:15: [edwinlzs] clicked on button: cbcal_0_s_d_2022_9_9 
+04/03/2022, 20:36:22: [edwinlzs] clicked on button: cbcal_selected_9/9/2022_10:00 AM - 10:30 AM 
+04/03/2022, 20:36:48: [edwinlzs] clicked on button: cbcal_selected_9/9/2022_11:00 AM - 11:30 AM 
+04/03/2022, 20:37:26: user [edwinlzs] initialized with /start 
+04/03/2022, 20:37:28: [edwinlzs] clicked on button: book 
+04/03/2022, 20:37:30: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:37:32: [edwinlzs] clicked on button: cbcal_0_s_m_2022_2_3 
+04/03/2022, 20:37:34: [edwinlzs] clicked on button: cbcal_0_s_d_2022_2_9 
+04/03/2022, 20:37:36: [edwinlzs] clicked on button: cbcal_selected_9/2/2022_12:30 PM - 1:00 PM 
+04/03/2022, 20:39:29: [edwinlzs] clicked on button: cbcal_selected_9/2/2022_10:00 AM - 10:30 AM 
+04/03/2022, 20:40:26: [edwinlzs] clicked on button: cbcal_selected_9/2/2022_12:30 PM - 1:00 PM 
+04/03/2022, 20:41:53: user [edwinlzs] initialized with /start 
+04/03/2022, 20:41:55: [edwinlzs] clicked on button: book 
+04/03/2022, 20:41:58: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:42:00: [edwinlzs] clicked on button: cbcal_0_s_m_2022_2_3 
+04/03/2022, 20:42:02: [edwinlzs] clicked on button: cbcal_0_s_d_2022_2_10 
+04/03/2022, 20:42:04: [edwinlzs] clicked on button: cbcal_selected_10/2/2022_10:00 AM - 10:30 AM 
+04/03/2022, 20:43:48: user [edwinlzs] initialized with /start 
+04/03/2022, 20:43:49: user [edwinlzs] initialized with /start 
+04/03/2022, 20:43:50: user [edwinlzs] initialized with /start 
+04/03/2022, 20:43:55: [edwinlzs] clicked on button: book 
+04/03/2022, 20:43:57: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:44:11: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 20:44:21: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_10 
+04/03/2022, 20:44:26: [edwinlzs] clicked on button: cbcal_selected_10/5/2022_10:00 AM - 10:30 AM 
+04/03/2022, 20:45:01: [edwinlzs] clicked on button: book 
+04/03/2022, 20:45:03: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:45:08: [edwinlzs] clicked on button: cbcal_0_s_m_2022_4_3 
+04/03/2022, 20:45:11: [edwinlzs] clicked on button: cbcal_0_s_d_2022_4_3 
+04/03/2022, 20:45:13: [edwinlzs] clicked on button: cbcal_selected_3/4/2022_1:00 PM - 1:30 PM 
+04/03/2022, 20:47:19: user [edwinlzs] initialized with /start 
+04/03/2022, 20:47:24: [edwinlzs] clicked on button: book 
+04/03/2022, 20:47:27: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:47:29: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 20:47:31: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_6 
+04/03/2022, 20:47:35: [edwinlzs] clicked on button: cbcal_selected_6/5/2022_10:00 AM - 10:30 AM 

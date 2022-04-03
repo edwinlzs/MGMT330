@@ -42,7 +42,8 @@ def start(update: Update, context: CallbackContext) -> None:
 
   update.message.reply_text(
     'Welcome to Heng Foh Tong\'s Test Bot.\n\n'\
-    'What would you like to do today?',
+    'What would you like to do today?\n\n'\
+    'Choose one of the options below to continue.',
     reply_markup=reply_markup
   )
 
@@ -86,6 +87,7 @@ def button(update: Update, context: CallbackContext) -> None:
     min_date = date.today()
     max_date = min_date + relativedelta(years=3)
     calendar.start_calendar(bot=bot, chat_id=chat_id, min_date=min_date, max_date=max_date)
+    
   elif query.data.startswith('cbcal'):
     calendar.handle_calendar(bot=bot, query=query)
 
