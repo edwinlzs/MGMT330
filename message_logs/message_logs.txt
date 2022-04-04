@@ -119,3 +119,63 @@
 04/03/2022, 20:47:29: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
 04/03/2022, 20:47:31: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_6 
 04/03/2022, 20:47:35: [edwinlzs] clicked on button: cbcal_selected_6/5/2022_10:00 AM - 10:30 AM 
+04/03/2022, 20:50:30: user [edwinlzs] initialized with /start 
+04/03/2022, 20:52:45: user [edwinlzs] initialized with /start 
+04/03/2022, 20:54:00: user [edwinlzs] initialized with /start 
+04/03/2022, 20:55:09: user [edwinlzs] initialized with /start 
+04/03/2022, 20:56:34: user [edwinlzs] initialized with /start 
+04/03/2022, 20:56:42: [edwinlzs] clicked on button: book 
+04/03/2022, 20:56:46: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:56:49: [edwinlzs] clicked on button: cbcal_0_s_m_2022_2_3 
+04/03/2022, 20:57:24: user [edwinlzs] initialized with /start 
+04/03/2022, 20:57:32: [edwinlzs] clicked on button: book 
+04/03/2022, 20:57:36: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 20:57:40: [edwinlzs] clicked on button: cbcal_0_s_m_2022_9_3 
+04/03/2022, 20:57:45: [edwinlzs] clicked on button: cbcal_0_s_d_2022_9_10 
+04/03/2022, 20:57:51: [edwinlzs] clicked on button: cbcal_selected_10/9/2022_1:00 PM - 1:30 PM 
+04/03/2022, 21:09:35: user [edwinlzs] initialized with /start 
+04/03/2022, 21:09:41: [edwinlzs] clicked on button: book 
+04/03/2022, 21:09:44: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 21:09:47: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 21:09:51: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_7 
+04/03/2022, 21:09:55: [edwinlzs] clicked on button: cbcal_selected_7/5/2022_1:30 PM - 2:00 PM 
+04/03/2022, 21:13:10: user [edwinlzs] initialized with /start 
+04/03/2022, 21:13:16: [edwinlzs] clicked on button: book 
+04/03/2022, 21:13:19: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_3 
+04/03/2022, 21:13:22: [edwinlzs] clicked on button: cbcal_0_s_m_2022_5_3 
+04/03/2022, 21:13:26: [edwinlzs] clicked on button: cbcal_0_s_d_2022_5_8 
+04/03/2022, 21:13:30: [edwinlzs] clicked on button: cbcal_selected_8/5/2022_1:00 PM - 1:30 PM 
+04/05/2022, 00:43:35: user [edwinlzs] initialized with /start 
+04/05/2022, 00:43:38: [edwinlzs] clicked on button: learn 
+04/05/2022, 00:45:56: [edwinlzs] clicked on button: learn 
+04/05/2022, 00:46:40: [edwinlzs] clicked on button: learn 
+04/05/2022, 01:13:31: user [edwinlzs] initialized with /start 
+04/05/2022, 01:13:33: [edwinlzs] clicked on button: learn_start 
+04/05/2022, 01:13:39: [edwinlzs] clicked on button: learn_beauty 
+04/05/2022, 01:14:14: user [edwinlzs] initialized with /start 
+04/05/2022, 01:14:19: [edwinlzs] clicked on button: learn_start 
+04/05/2022, 01:14:22: [edwinlzs] clicked on button: learn_beauty 
+04/05/2022, 01:18:06: user [edwinlzs] initialized with /start 
+04/05/2022, 01:18:10: [edwinlzs] clicked on button: learn_start 
+04/05/2022, 01:18:13: [edwinlzs] clicked on button: learn_beauty 
+04/05/2022, 01:18:50: user [edwinlzs] initialized with /start 
+04/05/2022, 01:18:54: [edwinlzs] clicked on button: learn_start 
+04/05/2022, 01:18:57: [edwinlzs] clicked on button: learn_beauty 
+04/05/2022, 01:19:27: user [edwinlzs] initialized with /start 
+04/05/2022, 01:19:30: [edwinlzs] clicked on button: learn_start 
+04/05/2022, 01:19:35: [edwinlzs] clicked on button: learn_beauty 
+04/05/2022, 01:20:09: user [edwinlzs] initialized with /start 
+04/05/2022, 01:20:12: [edwinlzs] clicked on button: learn_start 
+04/05/2022, 01:20:14: [edwinlzs] clicked on button: learn_beauty 
+04/05/2022, 01:21:22: user [edwinlzs] initialized with /start 
+04/05/2022, 01:21:24: [edwinlzs] clicked on button: learn_start 
+04/05/2022, 01:21:26: [edwinlzs] clicked on button: learn_beauty 
+04/05/2022, 01:22:28: user [edwinlzs] initialized with /start 
+04/05/2022, 01:30:43: user [edwinlzs] initialized with /start 
+04/05/2022, 01:30:59: user [edwinlzs] initialized with /start 
+04/05/2022, 01:49:02: user [edwinlzs] initialized with /start 
+04/05/2022, 01:49:04: [edwinlzs] clicked on button: book 
+04/05/2022, 01:49:07: [edwinlzs] clicked on button: cbcal_0_s_y_2022_4_5 
+04/05/2022, 01:49:11: [edwinlzs] clicked on button: cbcal_0_s_m_2022_8_5 
+04/05/2022, 01:49:14: [edwinlzs] clicked on button: cbcal_0_s_d_2022_8_12 
+04/05/2022, 01:49:19: [edwinlzs] clicked on button: cbcal_selected_12/8/2022_12:30 PM - 1:00 PM 

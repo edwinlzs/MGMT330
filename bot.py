@@ -4,7 +4,7 @@ import logging
 from datetime import date, datetime
 from dateutil.relativedelta import relativedelta
 # from lib.calendar import start_calendar, handle_calendar
-from lib import calendar
+from lib import calendar, learn
 
 bot = Bot(token='5254310301:AAFpjmHpHHKNa_QH94L_Ey0lBOK6e5BfpuA')
 
@@ -27,14 +27,17 @@ def start(update: Update, context: CallbackContext) -> None:
 
   keyboard = [
       [
-          InlineKeyboardButton("Confinement Plan", callback_data='confinement'),
-          InlineKeyboardButton("Subscription Plan", callback_data='subscription'),
+          InlineKeyboardButton("About Heng Foh Tong", callback_data='about'),
+          InlineKeyboardButton("Your Subscription", callback_data='subscription'),
+      ],
+      [
+        InlineKeyboardButton("Learn about TCM Herbs", callback_data='learn_start'),
       ],
       [
         InlineKeyboardButton("Shop on our Website", url='https://hengfohtong.com/shop/products/'),
       ],
       [
-        InlineKeyboardButton("Book a Consultation", callback_data='book'),
+        InlineKeyboardButton("Schedule a Consultation", callback_data='book'),
       ],
   ]
 
@@ -70,11 +73,9 @@ def button(update: Update, context: CallbackContext) -> None:
     username = update.effective_user.username
     f.write(f"{timestamp}: [{username}] clicked on button: {query.data} \n")
 
-  if query.data == 'confinement':
-    bot.send_message(
-      chat_id=chat_id,
-      text='Today on your confinement plan, you need to consume Herb ABC'
-    )
+  if query.data.startswith('learn'):
+    learn.learn(bot, query)
+
   elif query.data == 'subscription':
     bot.send_message(
       chat_id=chat_id,
@@ -83,11 +84,12 @@ def button(update: Update, context: CallbackContext) -> None:
       '2. Herb BCD - this helps you stay beautiful\n'\
       '3. Herb CDE - this boosts your immunity\n'\
     )
+
   elif query.data == 'book':
     min_date = date.today()
     max_date = min_date + relativedelta(years=3)
     calendar.start_calendar(bot=bot, chat_id=chat_id, min_date=min_date, max_date=max_date)
-    
+
   elif query.data.startswith('cbcal'):
     calendar.handle_calendar(bot=bot, query=query)
 
